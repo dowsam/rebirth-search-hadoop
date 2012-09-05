@@ -5,7 +5,7 @@
 
 package cn.com.rebirth.search.core.gateway.hdfs;
 
-import cn.com.rebirth.search.commons.inject.AbstractModule;
+import cn.com.rebirth.core.inject.AbstractModule;
 import cn.com.rebirth.search.core.index.gateway.IndexGateway;
 import cn.com.rebirth.search.hadoop.index.gateway.hdfs.HdfsIndexGateway;
 

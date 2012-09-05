@@ -4,6 +4,7 @@
  */
 package cn.com.rebirth.search.hadoop;
 
+import cn.com.rebirth.commons.AbstractVersion;
 import cn.com.rebirth.commons.Version;
 
 /**
@@ -11,15 +12,10 @@ import cn.com.rebirth.commons.Version;
  *
  * @author l.xue.nong
  */
-public class RebirthSearchHadoopVerion implements Version {
+public class RebirthSearchHadoopVerion extends AbstractVersion implements Version {
 
 	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = -8043854155386241988L;
-
-	@Override
-	public String getModuleVersion() {
-		return "0.0.1.RC1-SNAPSHOT";
-	}
 
 	@Override
 	public String getModuleName() {
